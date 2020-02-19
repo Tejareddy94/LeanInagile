@@ -1311,6 +1311,35 @@ div.img-container img { opacity: 0.4; }
   transition: all 0.6s ease 0s;
 }
 
+/* ==============================================================
+Quote Section
+ ==================================================================
+*/
+.quote{
+  background: #f0326b;
+  position: relative;
+}
+
+.quote .item i{
+  font-size: 40px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.quote .item .quote-details{
+  padding-bottom: 30px;
+}
+.quote .item .quote-details p {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 200;
+  padding: 0 10%;
+}
+.quote .item .quote-details p span{
+  font-weight: bold;
+}
 /*=================================================================
   Testimonial section
 ==================================================================*/
