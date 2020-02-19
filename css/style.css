@@ -442,6 +442,9 @@ a:focus, a:hover {
   margin-top: 80px;
 }
 
+.img-container { background-color: #000000; }
+div.img-container img { opacity: 0.4; }
+
 @media (max-width: 992px) {
   .rev_slider_wrapper {
     margin-top: 60px;
