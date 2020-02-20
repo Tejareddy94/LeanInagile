@@ -751,6 +751,44 @@ div.img-container img {
   font-weight: bold;
   margin-top: 0;
 }
+section.about-2{
+  padding: 4rem;
+}
+
+section.about-mission-vision{
+  padding: 4rem;
+}
+
+
+
+.about-mission-vision .content2{
+  padding: 3rem;
+}
+
+.content2 .modal-header{
+  background-color: #c3295e;
+  color: #fff;
+}
+
+.modal-body{
+  font-size: 1.5rem;
+}
+.close{
+  color: #fff;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 1;
+}
+.content2 a{
+  width: 230px;
+ height: 50px;
+ text-align:center;
+ line-height:1.1em;
+ font-size:1.1em;
+}
+
+.content2 .block{
+  padding: 1rem;
+}
 
 @media (max-width: 992px) {
   .about h2 {
@@ -807,6 +845,9 @@ div.img-container img {
 @media (max-width: 768px) {
   .about-2 h2:before {
     display: none;
+  }
+  .about-2 h2 {
+    font-size: 1.4rem;
   }
 }
 
